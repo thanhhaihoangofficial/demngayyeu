@@ -27,3 +27,32 @@ background: rgba(245, 0, 245, 0.74);
 .hand{cursor:pointer;}
 .say{margin-left:5px;}
 .space{margin-right:150px;}
+
+.mPower {
+  position: fixed;
+  bottom: 9rem;
+  right: 6.2rem;
+  z-index: 999
+}
+#off,
+#on {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-bottom: -3px;
+  filter: alpha(opacity=.8);
+  opacity: .8;
+  cursor: pointer
+}
+#off:hover,
+#on:hover {
+  filter: alpha(opacity=4);
+  opacity: 1
+}
+#on {
+  background: url(img/music.png) left center no-repeat
+}
+#off {
+  background: url(img/mute.png) left center no-repeat;
+  display: none
+}
