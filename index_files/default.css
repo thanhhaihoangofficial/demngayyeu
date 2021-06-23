@@ -12,10 +12,10 @@ height:36px;
 width:36px;
 text-align:center;
 vertical-align:middle;
--webkit-transition: .8s;
+/*-webkit-transition: .8s;
 -moz-transition: .8s;
 -o-transition: .8s;
--ms-transition: .8s;
+-ms-transition: .8s;*/
 padding: 3px;
 border: 1px solid #ddd;
 background: rgba(245, 0, 245, 0.74);
